@@ -13,14 +13,22 @@
     <link rel="stylesheet" href="./normalize.css" />
     <!-- main css -->
     <link rel="stylesheet" href="./main.css" />
-    <title>Task Manager</title>
+    <title>Goal Getter</title>
 </head>
 
 <body>
+
+    <div class="quotes-block">
+        <h4>Quote of The Day</h4>
+        <h5 id="quote-text"></h5>
+        <h5 id="quote-author">sss</h5>
+        <button type="button" id="gen-quote-btn">Motivate Me!</button>
+    </div>
+
     <form class="task-form">
         <h4>Goal Getter</h4>
         <div class="form-control">
-            <input type="text" name="name" class="task-input" placeholder="e.g. Conquer The Day!" />
+            <input type="text" name="name" class="task-input" placeholder="e.g. wash dishes" />
             <button type="submit" class="btn submit-btn">submit</button>
         </div>
         <div class="form-alert"></div>
@@ -34,6 +42,7 @@
         integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./browser-app.js"></script>
+    <script src="./quotes-script.js"></script>
 </body>
 
 </html>

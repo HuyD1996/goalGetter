@@ -488,3 +488,21 @@ form> :last-child {
     text-align: center;
     margin-top: 1rem;
 }
+
+.quotes-block {
+    width: 90vw;
+    max-width: var(--fixed-width);
+    margin: 0 auto;
+    margin-top: 6rem;
+}
+
+.quotes-block h4 {
+    text-align: center;
+}
+
+#gen-quote-btn {
+    text-align: center;
+    margin: auto;
+    display: flex;
+
+}

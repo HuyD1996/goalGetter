@@ -74,7 +74,7 @@ formDOM.addEventListener("submit", async (e) => {
     showTasks();
     taskInputDOM.value = "";
     formAlertDOM.style.display = "block";
-    formAlertDOM.textContent = `success! task added`;
+    formAlertDOM.textContent = `success, task added`;
     formAlertDOM.classList.add("text-success");
   } catch (error) {
     formAlertDOM.style.display = "block";
